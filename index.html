@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Shopping Cart</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Shopping Cart</h2>
+        <img id="image" src="image/image.gif" alt="">
+        <div class="input-section">
+            <label for="price1">Enter Price of Item 1:</label>
+            <input type="number" id="price1" placeholder="e.g. 650" />
+
+            <label for="quantity1">Enter Quantity of Item 1:</label>
+            <input type="number" id="quantity1" placeholder="e.g. 3" />
+
+            <label for="price2">Enter Price of Item 2:</label>
+            <input type="number" id="price2" placeholder="e.g. 100" />
+
+            <label for="quantity2">Enter Quantity of Item 2:</label>
+            <input type="number" id="quantity2" placeholder="e.g. 7" />
+
+            <label for="shipping">Enter Shipping Charges:</label>
+            <input type="number" id="shipping" placeholder="e.g. 100" />
+
+            <button id="calculate-btn">Calculate Total Cost</button>
+        </div>
+        <div class="result">
+            <p id="total-cost"></p>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
+
+
+
